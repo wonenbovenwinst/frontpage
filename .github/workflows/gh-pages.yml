@@ -3,7 +3,7 @@ name: github pages
 on:
   push:
     branches:
-      - hugo  # Set a branch to deploy
+      - main  # Set a branch to deploy
   pull_request:
 
 jobs:
@@ -26,7 +26,10 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/hugo'
+        if: github.ref == 'refs/heads/main'
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.PAGES_DEPLOY_KEY }}
+          external_repository: wonenbovenwinst/wonenbovenwinst.github.io
+          publish_branch: main
           publish_dir: ./public
+          cname: wonenbovenwinst.nl
