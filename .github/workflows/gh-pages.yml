@@ -32,4 +32,3 @@ jobs:
           external_repository: wonenbovenwinst/wonenbovenwinst.github.io
           publish_branch: main
           publish_dir: ./public
-          cname: wonenbovenwinst.nl
