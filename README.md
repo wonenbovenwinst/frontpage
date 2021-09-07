@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Wonen Boven Winst
 
 You can use the [editor on GitHub](https://github.com/wonenbovenwinst/frontpage/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
