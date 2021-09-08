@@ -1,0 +1,36 @@
+########################## Banner #############################
+banner:
+  enable : true
+  title : "Het gaat niet goed met de Nederlandse huizenmarkt"
+  image : "images/logo.svg"
+  content : "En het is tijd om daar iets aan te veranderen."
+
+######################## Book Preview ##########################
+preview:
+  enable : true
+
+  title : "Onze eisen"
+  content : "Dit is wat er moet gebeuren"
+
+  inside:
+    # book inside item loop
+    - insideItem : "Voer een zelfbewoningsplicht in voor alle woningen"
+    - insideItem : "Belast inkomsten uit de verhuur van woningen"
+    - insideItem : "Voer actief beleid tegen leegstand"
+    - insideItem : "Bouw betaalbare nieuwbouw"
+    - insideItem : "Limiteer het aantal woningen dat iemand mag bezitten"
+    - insideItem : "Breng het ministerie van volkshuisvesting terug"
+    - insideItem : "Reguleer de bestaande vrije huursector"
+    - insideItem : "Voer een opkoopverbod in voor beleggers"
+
+
+################################# Contact ##############################
+contact:
+  enable : true
+  title : "Doe mee"
+  contactItem:
+    # contact Item loop
+    - title : Discord
+      icon : "ti-desktop" # themify icon pack : https://themify.me/themify-icons
+      list:
+        - listItem : "https://discord.gg/7EpBmQAgyX"
