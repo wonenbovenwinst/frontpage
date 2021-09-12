@@ -137,6 +137,16 @@ hr:not([size]){
     background-color: #1DA1F2;
 }
 
+.reddit {
+  background-color: #ff4500;
+  border: none;
+}
+
+.reddit:hover {
+  background-color: #ff4500;
+}
+
+
 .socials{
     width: 80%;
     margin: 0 auto;
