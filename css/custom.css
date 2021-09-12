@@ -5,7 +5,7 @@ body {
   background-color: #FFF;
   color: #2c2c2c;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   font-weight: 300;
   word-wrap:break-word;
   -webkit-hyphens: auto;
@@ -108,6 +108,7 @@ h2 {
     list-style-image: url('../img/logo_wit.svg');
     line-height: 175%;
     color: #FFF;
+    padding-left: 15px;
 }
 
 #standpunten li {
@@ -160,7 +161,7 @@ hr:not([size]){
 }
 
 .container {
-    padding: 40px;
+    padding: 40px 15px 40px 15px;
     width: 100vw;
     margin: 0 auto;
     justify-content: center;
@@ -186,4 +187,13 @@ hr {
     white-space: nowrap;
     font-size: 1.0rem;
   }
+
+  body {
+    font-size: 1.1rem;
+  }
+
+  .container {
+    padding: 40px;
+  }
+  
 }
