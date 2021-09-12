@@ -21,7 +21,7 @@ h2 {
 .header_wbw {
     position: relative;
     background-image: url('../img/header_ams.jpg');
-    height: 400px;
+    height: 300px;
     width: 100%;
     image-rendering: crisp-edges;
     background-size: cover;
